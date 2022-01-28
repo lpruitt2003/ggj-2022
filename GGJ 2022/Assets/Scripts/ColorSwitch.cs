@@ -65,6 +65,7 @@ public class ColorSwitch : MonoBehaviour
         foreach (GameObject lightObject in lightColoredObjects)
         {
             lightObject.GetComponent<SpriteRenderer>().color = Color.white;
+            lightObject.GetComponent<BoxCollider2D>().enabled = false;
         }
     }
 
@@ -84,6 +85,8 @@ public class ColorSwitch : MonoBehaviour
         foreach (GameObject lightObject in lightColoredObjects)
         {
             lightObject.GetComponent<SpriteRenderer>().color = lightBlue;
+            lightObject.GetComponent<BoxCollider2D>().enabled = true;
+            
         }
     }
 }
