@@ -10,4 +10,4 @@ Team:
 - Edin Karakurt (EdinBlackwolf)
 - Jessica Algotsson
 - Johan Bergström (Vintervind)
-- Selin Kaya (Lunarks)
+- Selin Kaya (lunarks)
