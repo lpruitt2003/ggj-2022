@@ -35,10 +35,10 @@ MonoBehaviour:
   Path: ../FMOD Files/GGJ2022/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637789921517795727
+  lastModified: 637790051029569574
   FileSizes:
   - Name: Desktop
-    Value: 758
+    Value: 808
   Exists: 1
 --- !u!114 &-4631803136227576872
 MonoBehaviour:
@@ -75,11 +75,38 @@ MonoBehaviour:
   Path: ../FMOD Files/GGJ2022/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637789921517787805
+  lastModified: 637790051029509733
   FileSizes:
   - Name: Desktop
-    Value: 77024
+    Value: 14016
   Exists: 1
+--- !u!114 &-1924586669271122555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/colourSwap
+  m_EditorClassIdentifier: 
+  Path: event:/colourSwap
+  Guid:
+    Data1: -956194297
+    Data2: 1139339451
+    Data3: 113815990
+    Data4: -964083449
+  Banks:
+  - {fileID: -2199020664370492513}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 214
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,14 +123,42 @@ MonoBehaviour:
   - {fileID: -2199020664370492513}
   - {fileID: -8552207813207425871}
   EditorEvents:
-  - {fileID: 9143408111652257295}
+  - {fileID: -1924586669271122555}
+  - {fileID: 1578823294826580919}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2199020664370492513}
   StringsBanks:
   - {fileID: -8552207813207425871}
-  cacheTime: 637789921517795727
+  cacheTime: 637790051029569574
   cacheVersion: 10
+--- !u!114 &1578823294826580919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Switch
+  m_EditorClassIdentifier: 
+  Path: event:/Switch
+  Guid:
+    Data1: 1619800999
+    Data2: 1106440538
+    Data3: -2085820769
+    Data4: 1118552635
+  Banks:
+  - {fileID: -2199020664370492513}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 250
 --- !u!114 &6282270540359134542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151,30 +206,3 @@ MonoBehaviour:
   - Name: Desktop
     Value: 77024
   Exists: 1
---- !u!114 &9143408111652257295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/New Event
-  m_EditorClassIdentifier: 
-  Path: event:/New Event
-  Guid:
-    Data1: 1619800999
-    Data2: 1106440538
-    Data3: -2085820769
-    Data4: 1118552635
-  Banks:
-  - {fileID: -2199020664370492513}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 7200

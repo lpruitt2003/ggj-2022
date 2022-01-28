@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 public class ColorSwitch : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class ColorSwitch : MonoBehaviour
 
     // Bool that will check the state of the environment
     public bool isEnvironmentColored;
+
+    //Sound effects
+    public StudioEventEmitter colorswap;
 
     // For holding the colored objects inside the level
     private GameObject[] darkColoredObjects;
@@ -33,7 +37,7 @@ public class ColorSwitch : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            // FMOD Sound
+            colorswap.Play();
 
             if (isEnvironmentColored)
             {
