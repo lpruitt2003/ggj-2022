@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{ca6cef7c-f2ce-4c63-8cfc-37a66942c5d6}">
+	<object class="AudioFile" id="{795189ba-8542-40c5-bab8-006070887255}">
 		<property name="assetPath">
-			<value>PasswordLoop - 0001 - Instrument - HALion Sonic SE 01.wav</value>
+			<value>Jump 32.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<property name="length">
-			<value>7.2000226757369612</value>
+			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{91b1cb9f-637c-4d5e-a5d5-34939da0c53b}</destination>
