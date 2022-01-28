@@ -335,8 +335,8 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../FMOD/GGJ22/GGJ22.fspro
-  sourceBankPath: ../FMOD/GGJ22/Build
+  sourceProjectPath: ../FMOD Files/GGJ/GGJ.fspro
+  sourceBankPath: ../FMOD Files/GGJ/Build
   SourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
