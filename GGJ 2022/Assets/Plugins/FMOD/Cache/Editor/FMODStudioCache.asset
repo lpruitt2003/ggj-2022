@@ -1,25 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8857762602329932593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Desktop/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: ../../FMOD Files/GGJ2022/Build/Desktop/Desktop/Master.strings.bank
-  Name: Desktop/Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 637789911114022855
-  FileSizes:
-  - Name: Desktop
-    Value: 758
-  Exists: 1
 --- !u!114 &-8552207813207425871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,16 +15,12 @@ MonoBehaviour:
   Path: ../FMOD Files/GGJ2022/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-<<<<<<< Updated upstream
-  lastModified: 637790062126605215
-=======
-  lastModified: 637790084725943755
->>>>>>> Stashed changes
+  lastModified: 637790154109791793
   FileSizes:
   - Name: Desktop
     Value: 808
   Exists: 1
---- !u!114 &-4631803136227576872
+--- !u!114 &-3919771336621116496
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -53,17 +29,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/colorSwap
   m_EditorClassIdentifier: 
-  Path: ../../FMOD Files/GGJ2022/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 637789899951942625
-  FileSizes:
-  - Name: Desktop
-    Value: 1036
-  Exists: 1
+  Path: event:/colorSwap
+  Guid:
+    Data1: -956194297
+    Data2: 1139339451
+    Data3: 113815990
+    Data4: -964083449
+  Banks:
+  - {fileID: -2199020664370492513}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 214
 --- !u!114 &-2199020664370492513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79,11 +62,7 @@ MonoBehaviour:
   Path: ../FMOD Files/GGJ2022/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-<<<<<<< Updated upstream
-  lastModified: 637790062126598920
-=======
-  lastModified: 637790084725943755
->>>>>>> Stashed changes
+  lastModified: 637790154109781873
   FileSizes:
   - Name: Desktop
     Value: 14016
@@ -104,24 +83,16 @@ MonoBehaviour:
   - {fileID: -2199020664370492513}
   - {fileID: -8552207813207425871}
   EditorEvents:
-  - {fileID: 1578823294826580919}
-<<<<<<< Updated upstream
-  - {fileID: 2164748835626156647}
-=======
-  - {fileID: 9073417077657895715}
->>>>>>> Stashed changes
+  - {fileID: 7595692831769353473}
+  - {fileID: -3919771336621116496}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2199020664370492513}
   StringsBanks:
   - {fileID: -8552207813207425871}
-<<<<<<< Updated upstream
-  cacheTime: 637790062126605215
-=======
-  cacheTime: 637790084725943755
->>>>>>> Stashed changes
+  cacheTime: 637790154109791793
   cacheVersion: 10
---- !u!114 &1578823294826580919
+--- !u!114 &7595692831769353473
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,104 +119,3 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 250
---- !u!114 &2164748835626156647
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/colorSwap
-  m_EditorClassIdentifier: 
-  Path: event:/colorSwap
-  Guid:
-    Data1: -956194297
-    Data2: 1139339451
-    Data3: 113815990
-    Data4: -964083449
-  Banks:
-  - {fileID: -2199020664370492513}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 214
---- !u!114 &6282270540359134542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/New Event
-  m_EditorClassIdentifier: 
-  Path: event:/New Event
-  Guid:
-    Data1: 1619800999
-    Data2: 1106440538
-    Data3: -2085820769
-    Data4: 1118552635
-  Banks:
-  - {fileID: 7708870568747572465}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 7200
---- !u!114 &7708870568747572465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Desktop/Master.bank
-  m_EditorClassIdentifier: 
-  Path: ../../FMOD Files/GGJ2022/Build/Desktop/Desktop/Master.bank
-  Name: Desktop/Master
-  StudioPath: bank:/Master
-  lastModified: 637789911113988119
-  FileSizes:
-  - Name: Desktop
-    Value: 77024
-  Exists: 1
---- !u!114 &9073417077657895715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/colorSwap
-  m_EditorClassIdentifier: 
-  Path: event:/colorSwap
-  Guid:
-    Data1: -956194297
-    Data2: 1139339451
-    Data3: 113815990
-    Data4: -964083449
-  Banks:
-  - {fileID: -2199020664370492513}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 214
