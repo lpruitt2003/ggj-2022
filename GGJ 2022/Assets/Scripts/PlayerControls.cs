@@ -13,13 +13,12 @@ public class PlayerControls : MonoBehaviour
     public Camera mainCamera;
 
     bool facingRight = true;
-    float moveDirection = 0;
-    bool isGrounded = false;
+    public float moveDirection = 0;
+    public bool isGrounded = false;
     Vector3 cameraPos;
     Rigidbody2D r2d;
     CapsuleCollider2D mainCollider;
     Transform t;
-
 
     // Start is called before the first frame update
     void Start()

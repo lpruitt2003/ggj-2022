@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8552207813207425871
+--- !u!114 &-7037120291086956275
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15,43 +15,12 @@ MonoBehaviour:
   Path: ../FMOD Files/GGJ2022/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-<<<<<<< Updated upstream
-  lastModified: 637790154109791793
-=======
-  lastModified: 637790091734266664
->>>>>>> Stashed changes
+  lastModified: 637790511199669335
   FileSizes:
   - Name: Desktop
     Value: 858
   Exists: 1
---- !u!114 &-3919771336621116496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/colorSwap
-  m_EditorClassIdentifier: 
-  Path: event:/colorSwap
-  Guid:
-    Data1: -956194297
-    Data2: 1139339451
-    Data3: 113815990
-    Data4: -964083449
-  Banks:
-  - {fileID: -2199020664370492513}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 214
---- !u!114 &-2199020664370492513
+--- !u!114 &-4508277915332134607
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -66,46 +35,12 @@ MonoBehaviour:
   Path: ../FMOD Files/GGJ2022/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-<<<<<<< Updated upstream
-  lastModified: 637790154109781873
-=======
-  lastModified: 637790091734231945
->>>>>>> Stashed changes
+  lastModified: 637790511199659333
   FileSizes:
   - Name: Desktop
     Value: 331552
   Exists: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: -2199020664370492513}
-  - {fileID: -8552207813207425871}
-  EditorEvents:
-  - {fileID: 7595692831769353473}
-  - {fileID: -3919771336621116496}
-  - {fileID: 5086389048632032823}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: -2199020664370492513}
-  StringsBanks:
-  - {fileID: -8552207813207425871}
-<<<<<<< Updated upstream
-  cacheTime: 637790154109791793
-  cacheVersion: 10
-=======
-  cacheTime: 637790091734266664
-  cacheVersion: 10
---- !u!114 &5086389048632032823
+--- !u!114 &-2895281532492200033
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,7 +59,7 @@ MonoBehaviour:
     Data3: 1445026470
     Data4: -1731611199
   Banks:
-  - {fileID: -2199020664370492513}
+  - {fileID: -4508277915332134607}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -132,7 +67,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 24615
---- !u!114 &6282270540359134542
+--- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,26 +76,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/New Event
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  Path: event:/New Event
-  Guid:
-    Data1: 1619800999
-    Data2: 1106440538
-    Data3: -2085820769
-    Data4: 1118552635
-  Banks:
-  - {fileID: 7708870568747572465}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 7200
->>>>>>> Stashed changes
---- !u!114 &7595692831769353473
+  EditorBanks:
+  - {fileID: -7037120291086956275}
+  - {fileID: -4508277915332134607}
+  EditorEvents:
+  - {fileID: 8209030934026863096}
+  - {fileID: 2634700433708751800}
+  - {fileID: -2895281532492200033}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -4508277915332134607}
+  StringsBanks:
+  - {fileID: -7037120291086956275}
+  cacheTime: 637790511199669335
+  cacheVersion: 10
+--- !u!114 &2634700433708751800
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -179,7 +112,7 @@ MonoBehaviour:
     Data3: -2085820769
     Data4: 1118552635
   Banks:
-  - {fileID: -2199020664370492513}
+  - {fileID: -4508277915332134607}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -187,3 +120,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 250
+--- !u!114 &8209030934026863096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/colorSwap
+  m_EditorClassIdentifier: 
+  Path: event:/colorSwap
+  Guid:
+    Data1: -956194297
+    Data2: 1139339451
+    Data3: 113815990
+    Data4: -964083449
+  Banks:
+  - {fileID: -4508277915332134607}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 214
