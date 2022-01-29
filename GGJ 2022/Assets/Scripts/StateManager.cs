@@ -2,6 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
+/**=====================================
+Class State Manager
+---------------------
+Description
+
+Manage the transitions between the scene or the restart of the level
+--------------------------
+Author(s):
+Bryan Curchod
+======================================*/
 public class StateManager : MonoBehaviour
 {
     public void ReloadCurrentScene(){
@@ -9,6 +20,7 @@ public class StateManager : MonoBehaviour
     }
     public void ChangeSceneByName(string name){
         if(name != null){
+            // Debug.Log("transition to the scene \"" + name + "\"");
             SceneManager.LoadScene(name);
         }
     }

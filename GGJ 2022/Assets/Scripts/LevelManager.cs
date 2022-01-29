@@ -2,6 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/**=====================================
+Class LevelManager
+--------------------------
+Description
+
+Manage the death and victory mechanic in the level
+--------------------------
+Author(s):
+Bryan Curchod
+=====================================*/
 public class LevelManager : MonoBehaviour
 {
     public static LevelManager instance;
@@ -19,6 +29,14 @@ public class LevelManager : MonoBehaviour
         UIManager _ui = GetComponent<UIManager>();
         if(_ui != null){
             _ui.ToggleDeathPanel();
+        }
+    }
+
+    public void Victory(){
+        UIManager _ui = GetComponent<UIManager>();
+
+        if(_ui != null){
+            _ui.ToggleWinPanel();
         }
     }
 
