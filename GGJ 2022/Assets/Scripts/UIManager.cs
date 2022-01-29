@@ -19,6 +19,8 @@ public class UIManager : MonoBehaviour
 {
     [SerializeField] GameObject deathPanel;
     [SerializeField] GameObject winPanel;
+    [SerializeField] GameObject pausePanel;
+    [SerializeField] GameObject optionPanel;
 
     public void ToggleDeathPanel(){
         deathPanel.SetActive(!deathPanel.activeSelf);
@@ -26,5 +28,14 @@ public class UIManager : MonoBehaviour
 
     public void ToggleWinPanel(){
         winPanel.SetActive(!winPanel.activeSelf);
+    }
+    public void TogglePausePanel(){
+        pausePanel.SetActive(!pausePanel.activeSelf);
+    }
+
+    public void ToggleOptionPanel(){
+        // need to 
+        optionPanel.SetActive(!optionPanel.activeSelf);
+        TogglePausePanel();
     }
 }

@@ -17,7 +17,9 @@ public class StateManager : MonoBehaviour
 {
     public void ReloadCurrentScene(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1;
     }
+    
     public void ChangeSceneByName(string name){
         if(name != null){
             // Debug.Log("transition to the scene \"" + name + "\"");
@@ -25,4 +27,7 @@ public class StateManager : MonoBehaviour
         }
     }
 
+    public void resumeGame(){
+        GetComponent<LevelManager>().PauseMenu();
+    }
 }

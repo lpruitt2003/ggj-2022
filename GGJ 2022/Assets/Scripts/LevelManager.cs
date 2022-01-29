@@ -25,6 +25,13 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    void Update(){
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            PauseMenu();
+        }
+    }
+
     public void GameOver(){
         UIManager _ui = GetComponent<UIManager>();
         if(_ui != null){
@@ -41,6 +48,11 @@ public class LevelManager : MonoBehaviour
     }
 
     public void PauseMenu(){
-        // TODO pause menu
+        UIManager _ui = GetComponent<UIManager>();
+
+        if(_ui != null){
+            _ui.TogglePausePanel();
+            Time.timeScale = Time.timeScale == 0? 1: 0;
+        }
     }
 }
