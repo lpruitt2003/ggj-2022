@@ -53,7 +53,7 @@ public class MenuUIManager : MonoBehaviour
      *  Options Menu =======================================
      */
     // Loads the main menu scene
-    public void BackToMainMenu()
+    public void LoadMainMenu()
     {
         SceneManager.LoadScene("Main Menu");
     }
