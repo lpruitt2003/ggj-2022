@@ -16,13 +16,11 @@ public class CharacterAnimationController : MonoBehaviour
 {
     private Animator characterAnimator;
 
-    // Start is called before the first frame update
     void Start()
     {
         characterAnimator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         // If character is running, do the sprint animation
