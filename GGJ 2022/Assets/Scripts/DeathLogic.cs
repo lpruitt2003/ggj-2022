@@ -33,7 +33,11 @@ public class DeathLogic : MonoBehaviour
 
         // TODO  trigger death animation
         LevelManager.instance.GameOver();
-        rb.bodyType = RigidbodyType2D.Static;
-        gameObject.SetActive(false);
+        GetComponent<PlayerControls>().detachCamera();
+        
+        CapsuleCollider2D collider = GetComponent<CapsuleCollider2D>();
+        collider.enabled = false;
+        // rb.bodyType = RigidbodyType2D.Static;
+        // gameObject.SetActive(false);
     }
 }

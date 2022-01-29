@@ -101,32 +101,40 @@ public class PlayerControls : MonoBehaviour
 
     /** */
     void FixedUpdate()
+    {
+        // Debug.Log("in fixed update");
+        Bounds colliderBounds = mainCollider.bounds;
+        float colliderRadius = mainCollider.size.x * 0.4f * Mathf.Abs(transform.localScale.x);
+        Vector3 groundCheckPos = colliderBounds.min + new Vector3(colliderBounds.size.x * 0.5f, colliderRadius * 0.9f, 0);
+        // Check if player is grounded
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheckPos, colliderRadius);
+        //Check if any of the overlapping colliders are not player collider, if so, set isGrounded to true
+        isGrounded = false;
+        if (colliders.Length > 0)
         {
-            // Debug.Log("in fixed update");
-            Bounds colliderBounds = mainCollider.bounds;
-            float colliderRadius = mainCollider.size.x * 0.4f * Mathf.Abs(transform.localScale.x);
-            Vector3 groundCheckPos = colliderBounds.min + new Vector3(colliderBounds.size.x * 0.5f, colliderRadius * 0.9f, 0);
-            // Check if player is grounded
-            Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheckPos, colliderRadius);
-            //Check if any of the overlapping colliders are not player collider, if so, set isGrounded to true
-            isGrounded = false;
-            if (colliders.Length > 0)
+            for (int i = 0; i < colliders.Length; i++)
             {
-                for (int i = 0; i < colliders.Length; i++)
+                if (colliders[i] != mainCollider)
                 {
-                    if (colliders[i] != mainCollider)
-                    {
-                        isGrounded = true;
-                        break;
-                    }
+                    isGrounded = true;
+                    break;
                 }
             }
-
-            // Apply movement velocity
-            r2d.velocity = new Vector2((moveDirection) * maxSpeed, r2d.velocity.y);
-
-            // Simple debug
-            Debug.DrawLine(groundCheckPos, groundCheckPos - new Vector3(0, colliderRadius, 0), isGrounded ? Color.green : Color.red);
-            Debug.DrawLine(groundCheckPos, groundCheckPos - new Vector3(colliderRadius, 0, 0), isGrounded ? Color.green : Color.red);
         }
+
+        // Apply movement velocity
+        r2d.velocity = new Vector2((moveDirection) * maxSpeed, r2d.velocity.y);
+
+        // Simple debug
+        Debug.DrawLine(groundCheckPos, groundCheckPos - new Vector3(0, colliderRadius, 0), isGrounded ? Color.green : Color.red);
+        Debug.DrawLine(groundCheckPos, groundCheckPos - new Vector3(colliderRadius, 0, 0), isGrounded ? Color.green : Color.red);
+    }
+
+    void OnBecameInvisible(){
+        r2d.bodyType = RigidbodyType2D.Static;
+    }
+
+    public void detachCamera(){
+        this.mainCamera= null;
+    }
 }
