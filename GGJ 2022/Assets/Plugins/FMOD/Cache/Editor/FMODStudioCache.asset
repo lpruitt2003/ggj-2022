@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8552207813207425871
+--- !u!114 &-6012859951188336380
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15,97 +15,12 @@ MonoBehaviour:
   Path: ../FMOD Files/GGJ2022/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-<<<<<<< Updated upstream
-  lastModified: 637790154109791793
-=======
-  lastModified: 637790091734266664
->>>>>>> Stashed changes
+  lastModified: 637790544101379433
   FileSizes:
   - Name: Desktop
     Value: 858
   Exists: 1
---- !u!114 &-3919771336621116496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/colorSwap
-  m_EditorClassIdentifier: 
-  Path: event:/colorSwap
-  Guid:
-    Data1: -956194297
-    Data2: 1139339451
-    Data3: 113815990
-    Data4: -964083449
-  Banks:
-  - {fileID: -2199020664370492513}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 214
---- !u!114 &-2199020664370492513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: ../FMOD Files/GGJ2022/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-<<<<<<< Updated upstream
-  lastModified: 637790154109781873
-=======
-  lastModified: 637790091734231945
->>>>>>> Stashed changes
-  FileSizes:
-  - Name: Desktop
-    Value: 331552
-  Exists: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: -2199020664370492513}
-  - {fileID: -8552207813207425871}
-  EditorEvents:
-  - {fileID: 7595692831769353473}
-  - {fileID: -3919771336621116496}
-  - {fileID: 5086389048632032823}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: -2199020664370492513}
-  StringsBanks:
-  - {fileID: -8552207813207425871}
-<<<<<<< Updated upstream
-  cacheTime: 637790154109791793
-  cacheVersion: 10
-=======
-  cacheTime: 637790091734266664
-  cacheVersion: 10
---- !u!114 &5086389048632032823
+--- !u!114 &-2646473676287181465
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,7 +39,7 @@ MonoBehaviour:
     Data3: 1445026470
     Data4: -1731611199
   Banks:
-  - {fileID: -2199020664370492513}
+  - {fileID: 1399634210064887570}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -132,7 +47,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 24615
---- !u!114 &6282270540359134542
+--- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,26 +56,44 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/New Event
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  Path: event:/New Event
-  Guid:
-    Data1: 1619800999
-    Data2: 1106440538
-    Data3: -2085820769
-    Data4: 1118552635
-  Banks:
-  - {fileID: 7708870568747572465}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 7200
->>>>>>> Stashed changes
---- !u!114 &7595692831769353473
+  EditorBanks:
+  - {fileID: -6012859951188336380}
+  - {fileID: 1399634210064887570}
+  EditorEvents:
+  - {fileID: 4071391446621263278}
+  - {fileID: 3240468011125595067}
+  - {fileID: -2646473676287181465}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 1399634210064887570}
+  StringsBanks:
+  - {fileID: -6012859951188336380}
+  cacheTime: 637790544101379433
+  cacheVersion: 10
+--- !u!114 &1399634210064887570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Files/GGJ2022/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637790544101279696
+  FileSizes:
+  - Name: Desktop
+    Value: 331552
+  Exists: 1
+--- !u!114 &3240468011125595067
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -179,7 +112,7 @@ MonoBehaviour:
     Data3: -2085820769
     Data4: 1118552635
   Banks:
-  - {fileID: -2199020664370492513}
+  - {fileID: 1399634210064887570}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -187,3 +120,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 250
+--- !u!114 &4071391446621263278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/colorSwap
+  m_EditorClassIdentifier: 
+  Path: event:/colorSwap
+  Guid:
+    Data1: -956194297
+    Data2: 1139339451
+    Data3: 113815990
+    Data4: -964083449
+  Banks:
+  - {fileID: 1399634210064887570}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 214
