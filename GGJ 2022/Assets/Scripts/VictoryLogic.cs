@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /**=====================================
-Class UIManager
+Class VictoryLogic
 -------------------------
 Description
 

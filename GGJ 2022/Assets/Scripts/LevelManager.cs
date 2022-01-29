@@ -5,7 +5,7 @@ using UnityEngine;
 /**=====================================
 Class LevelManager
 --------------------------
-Description
+Description:
 
 Manage the death and victory mechanic in the level
 --------------------------

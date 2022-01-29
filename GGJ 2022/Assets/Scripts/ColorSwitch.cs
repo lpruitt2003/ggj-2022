@@ -3,6 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using FMODUnity;
 
+/**=====================================
+Class ColorSwitch
+-------------------------
+Description:
+
+Switch the colours of the environment between B&W and coloured. Handle the Sound effects.
+Some game elements are enabled/disabled depending on the mode
+--------------------------
+Author(s):
+Selin Kaya
+Bryan Curchod
+Johan Bergström
+=====================================*/
 public class ColorSwitch : MonoBehaviour
 {
     // Colors

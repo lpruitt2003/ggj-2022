@@ -2,6 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/**=====================================
+Class CharacterAnimationController
+-------------------------
+Description:
+
+Handle the animation of the player's character
+--------------------------
+Author(s):
+Selin Kaya
+=====================================*/
 public class CharacterAnimationController : MonoBehaviour
 {
     private Animator characterAnimator;

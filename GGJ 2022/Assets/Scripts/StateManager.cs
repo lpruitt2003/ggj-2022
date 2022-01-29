@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 /**=====================================
-Class State Manager
+Class StateManager
 ---------------------
 Description
 

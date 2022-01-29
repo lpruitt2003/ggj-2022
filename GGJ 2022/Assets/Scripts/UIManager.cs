@@ -5,7 +5,7 @@ using UnityEngine;
 /**=====================================
 Class UIManager
 -------------------------
-Description
+Description:
 
 Manage the different UI panel in the game
     - Death screen

@@ -5,12 +5,26 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(CapsuleCollider2D))]
 
+/**=====================================
+Class PlayerControls
+-------------------------
+Description:
+
+Manages and defines the behavior of the player's character.
+Can go left and right, and jump once
+
+--------------------------
+Author(s):
+Bryan Curchod
+Selin Kaya
+Edin Karakurt
+=====================================*/
 public class PlayerControls : MonoBehaviour
 {
     public float maxSpeed = 5f;
     public float jumpHeight = 8f;
     public float gravityScale = 1.5f;
-    public Camera mainCamera;
+    public Camera mainCamera; // camera that will follow the player
 
     bool facingRight = true;
     public float moveDirection = 0;
@@ -20,7 +34,7 @@ public class PlayerControls : MonoBehaviour
     CapsuleCollider2D mainCollider;
     Transform t;
 
-    // Start is called before the first frame update
+    // Start is called before the first frame update. Set the base value before starting up the game
     void Start()
     {
         
@@ -84,6 +98,8 @@ public class PlayerControls : MonoBehaviour
 
         
     }
+
+    /** */
     void FixedUpdate()
         {
             // Debug.Log("in fixed update");

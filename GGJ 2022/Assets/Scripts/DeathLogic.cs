@@ -2,6 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/**=====================================
+Class DeathLogic
+-------------------------
+Description:
+
+Death logic. Display the victory menu and disable the player's character
+--------------------------
+Author(s):
+Bryan Curchod
+=====================================*/
 public class DeathLogic : MonoBehaviour
 {
     private Rigidbody2D rb;
