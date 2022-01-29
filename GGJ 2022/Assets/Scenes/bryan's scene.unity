@@ -393,6 +393,8 @@ MonoBehaviour:
   jumpHeight: 8
   gravityScale: 1.5
   mainCamera: {fileID: 829741205}
+  moveDirection: 0
+  isGrounded: 0
 --- !u!70 &594650844
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1070,10 +1072,6 @@ PrefabInstance:
     - target: {fileID: 186719837016454910, guid: f72b02d1ff23f8743b36ac06afb6ca61, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5984697945923235810, guid: f72b02d1ff23f8743b36ac06afb6ca61, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: TitleScreen
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72b02d1ff23f8743b36ac06afb6ca61, type: 3}
