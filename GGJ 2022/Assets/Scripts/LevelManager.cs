@@ -21,4 +21,8 @@ public class LevelManager : MonoBehaviour
             _ui.ToggleDeathPanel();
         }
     }
+
+    public void PauseMenu(){
+        // TODO pause menu
+    }
 }
