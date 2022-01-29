@@ -1,10 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
-<<<<<<< Updated upstream
---- !u!114 &-7037120291086956275
-=======
---- !u!114 &-8321083482972450310
->>>>>>> Stashed changes
+--- !u!114 &-6012859951188336380
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19,19 +15,12 @@ MonoBehaviour:
   Path: ../FMOD Files/GGJ2022/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-<<<<<<< Updated upstream
-  lastModified: 637790511199669335
-=======
   lastModified: 637790544101379433
->>>>>>> Stashed changes
   FileSizes:
   - Name: Desktop
     Value: 858
   Exists: 1
-<<<<<<< Updated upstream
---- !u!114 &-4508277915332134607
-=======
---- !u!114 &-7989037526931399829
+--- !u!114 &-2646473676287181465
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,100 +29,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Switch
-  m_EditorClassIdentifier: 
-  Path: event:/Switch
-  Guid:
-    Data1: 1619800999
-    Data2: 1106440538
-    Data3: -2085820769
-    Data4: 1118552635
-  Banks:
-  - {fileID: 4124940126413190670}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 250
---- !u!114 &-5104062334460988826
->>>>>>> Stashed changes
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/colorSwap
-  m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
-  Path: ../FMOD Files/GGJ2022/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 637790511199659333
-  FileSizes:
-  - Name: Desktop
-    Value: 331552
-  Exists: 1
---- !u!114 &-2895281532492200033
-=======
-  Path: event:/colorSwap
-  Guid:
-    Data1: -956194297
-    Data2: 1139339451
-    Data3: 113815990
-    Data4: -964083449
-  Banks:
-  - {fileID: 4124940126413190670}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 214
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: -8321083482972450310}
-  - {fileID: 4124940126413190670}
-  EditorEvents:
-  - {fileID: -5104062334460988826}
-  - {fileID: -7989037526931399829}
-  - {fileID: 4882682330124744884}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: 4124940126413190670}
-  StringsBanks:
-  - {fileID: -8321083482972450310}
-  cacheTime: 637790544101379433
-  cacheVersion: 10
---- !u!114 &4124940126413190670
->>>>>>> Stashed changes
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-<<<<<<< Updated upstream
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/StageOne
   m_EditorClassIdentifier: 
@@ -144,7 +39,7 @@ MonoBehaviour:
     Data3: 1445026470
     Data4: -1731611199
   Banks:
-  - {fileID: -4508277915332134607}
+  - {fileID: 1399634210064887570}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -165,20 +60,20 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -7037120291086956275}
-  - {fileID: -4508277915332134607}
+  - {fileID: -6012859951188336380}
+  - {fileID: 1399634210064887570}
   EditorEvents:
-  - {fileID: 8209030934026863096}
-  - {fileID: 2634700433708751800}
-  - {fileID: -2895281532492200033}
+  - {fileID: 4071391446621263278}
+  - {fileID: 3240468011125595067}
+  - {fileID: -2646473676287181465}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -4508277915332134607}
+  - {fileID: 1399634210064887570}
   StringsBanks:
-  - {fileID: -7037120291086956275}
-  cacheTime: 637790511199669335
+  - {fileID: -6012859951188336380}
+  cacheTime: 637790544101379433
   cacheVersion: 10
---- !u!114 &2634700433708751800
+--- !u!114 &1399634210064887570
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -187,26 +82,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Switch
-  m_EditorClassIdentifier: 
-  Path: event:/Switch
-  Guid:
-    Data1: 1619800999
-    Data2: 1106440538
-    Data3: -2085820769
-    Data4: 1118552635
-  Banks:
-  - {fileID: -4508277915332134607}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 250
---- !u!114 &8209030934026863096
-=======
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
@@ -218,8 +93,7 @@ MonoBehaviour:
   - Name: Desktop
     Value: 331552
   Exists: 1
---- !u!114 &4882682330124744884
->>>>>>> Stashed changes
+--- !u!114 &3240468011125595067
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -229,7 +103,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-<<<<<<< Updated upstream
+  m_Name: event:/Switch
+  m_EditorClassIdentifier: 
+  Path: event:/Switch
+  Guid:
+    Data1: 1619800999
+    Data2: 1106440538
+    Data3: -2085820769
+    Data4: 1118552635
+  Banks:
+  - {fileID: 1399634210064887570}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 250
+--- !u!114 &4071391446621263278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/colorSwap
   m_EditorClassIdentifier: 
   Path: event:/colorSwap
@@ -239,28 +139,11 @@ MonoBehaviour:
     Data3: 113815990
     Data4: -964083449
   Banks:
-  - {fileID: -4508277915332134607}
+  - {fileID: 1399634210064887570}
   IsStream: 0
-=======
-  m_Name: event:/StageOne
-  m_EditorClassIdentifier: 
-  Path: event:/StageOne
-  Guid:
-    Data1: 350659523
-    Data2: 1170080369
-    Data3: 1445026470
-    Data4: -1731611199
-  Banks:
-  - {fileID: 4124940126413190670}
-  IsStream: 1
->>>>>>> Stashed changes
   Is3D: 0
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-<<<<<<< Updated upstream
   Length: 214
-=======
-  Length: 24615
->>>>>>> Stashed changes
