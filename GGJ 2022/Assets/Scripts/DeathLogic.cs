@@ -34,6 +34,7 @@ public class DeathLogic : MonoBehaviour
         // TODO  trigger death animation
         LevelManager.instance.GameOver();
         GetComponent<PlayerControls>().detachCamera();
+        PlayerControls.isAlive = false;
         
         CapsuleCollider2D collider = GetComponent<CapsuleCollider2D>();
         collider.enabled = false;

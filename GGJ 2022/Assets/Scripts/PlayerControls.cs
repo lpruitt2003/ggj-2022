@@ -26,6 +26,8 @@ public class PlayerControls : MonoBehaviour
     public float gravityScale = 1.5f;
     public Camera mainCamera; // camera that will follow the player
 
+    public static  bool isAlive = true;
+
     bool facingRight = true;
     public float moveDirection = 0;
     public bool isGrounded = false;
@@ -45,6 +47,7 @@ public class PlayerControls : MonoBehaviour
         r2d.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
         r2d.gravityScale = gravityScale;
         facingRight = t.localScale.x > 0;
+        isAlive = true;
 
         if (mainCamera)
         {
