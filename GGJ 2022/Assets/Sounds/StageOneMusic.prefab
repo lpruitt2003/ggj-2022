@@ -50,7 +50,7 @@ MonoBehaviour:
       Data2: 1170080369
       Data3: 1445026470
       Data4: -1731611199
-    Path: event:/StageOne
+    Path: event:/MainStageOne
   Event: 
   PlayEvent: 1
   StopEvent: 0
