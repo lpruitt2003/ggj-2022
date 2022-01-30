@@ -126,7 +126,9 @@ public class PlayerControls : MonoBehaviour
         }
 
         // Apply movement velocity
-        r2d.velocity = new Vector2((moveDirection) * maxSpeed, r2d.velocity.y);
+        if(isAlive){
+            r2d.velocity = new Vector2((moveDirection) * maxSpeed, r2d.velocity.y);
+        }
 
         // Simple debug
         Debug.DrawLine(groundCheckPos, groundCheckPos - new Vector3(0, colliderRadius, 0), isGrounded ? Color.green : Color.red);
