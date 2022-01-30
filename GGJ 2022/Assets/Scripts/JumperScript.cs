@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 /**=====================================
 Class JumperScript
@@ -11,10 +12,12 @@ Jumper units logic. Propulse the player upward
 --------------------------
 Author(s):
 Edin Karakurt
+Selin Kaya
 =====================================*/
 public class JumperScript : MonoBehaviour
 {
     private Animator anim;
+    public StudioEventEmitter jumperSound;
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -27,6 +30,8 @@ public class JumperScript : MonoBehaviour
             Rigidbody2D rb = collision.gameObject.GetComponent<Rigidbody2D>();
             rb.AddForce(transform.up * 15f, ForceMode2D.Impulse);
         }
+
+        jumperSound.Play();
     }
 }
 

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 /**=====================================
 Class DeathLogic
@@ -11,10 +12,13 @@ Death logic. Display the victory menu and disable the player's character
 --------------------------
 Author(s):
 Bryan Curchod
+Selin Kaya
 =====================================*/
 public class DeathLogic : MonoBehaviour
 {
     private Rigidbody2D rb;
+
+    public StudioEventEmitter deathSound;
     // Start is called before the first frame update
     private void Start()
     {
@@ -26,6 +30,7 @@ public class DeathLogic : MonoBehaviour
         if(collision.gameObject.CompareTag("DoNotTouch")){
                 Die();
         }
+        deathSound.Play();
     }
 
     private void Die(){

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 /**=====================================
 Class VictoryLogic
@@ -11,10 +12,13 @@ Victory logic. Display the victory menu
 --------------------------
 Author(s):
 Bryan Curchod
+Selin Kaya
 =====================================*/
 public class VictoryLogic : MonoBehaviour
 {
     private Rigidbody2D rb;
+
+    public StudioEventEmitter victoryMusic;
     // Start is called before the first frame update
     private void Start()
     {
@@ -26,6 +30,7 @@ public class VictoryLogic : MonoBehaviour
         if(collision.gameObject.CompareTag("VictoryFlag")){
                 Win();
         }
+        victoryMusic.Play();
     }
 
     private void Win(){

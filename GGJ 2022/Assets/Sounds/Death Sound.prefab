@@ -52,8 +52,8 @@ MonoBehaviour:
       Data4: -454903806
     Path: event:/Death
   Event: 
-  PlayEvent: 9
-  StopEvent: 10
+  PlayEvent: 0
+  StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
