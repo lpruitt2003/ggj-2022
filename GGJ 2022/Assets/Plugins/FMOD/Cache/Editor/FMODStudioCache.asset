@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8092875910155232058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Death
+  m_EditorClassIdentifier: 
+  Path: event:/Death
+  Guid:
+    Data1: -1349347117
+    Data2: 1254170465
+    Data3: -1386855539
+    Data4: -454903806
+  Banks:
+  - {fileID: 1399634210064887570}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 490
 --- !u!114 &-6944112589137133621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,10 +69,10 @@ MonoBehaviour:
   Path: ../FMOD Files/GGJ2022/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637791422180751759
+  lastModified: 637791443868727089
   FileSizes:
   - Name: Desktop
-    Value: 900
+    Value: 936
   Exists: 1
 --- !u!114 &-5883466473696947660
 MonoBehaviour:
@@ -90,12 +117,13 @@ MonoBehaviour:
   - {fileID: 4071391446621263278}
   - {fileID: -6944112589137133621}
   - {fileID: 8732013121248858878}
+  - {fileID: -8092875910155232058}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1399634210064887570}
   StringsBanks:
   - {fileID: -6012859951188336380}
-  cacheTime: 637791422180751759
+  cacheTime: 637791443868727089
   cacheVersion: 10
 --- !u!114 &1399634210064887570
 MonoBehaviour:
@@ -112,10 +140,10 @@ MonoBehaviour:
   Path: ../FMOD Files/GGJ2022/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637791422180741761
+  lastModified: 637791443868722089
   FileSizes:
   - Name: Desktop
-    Value: 1213856
+    Value: 1220864
   Exists: 1
 --- !u!114 &4071391446621263278
 MonoBehaviour:
