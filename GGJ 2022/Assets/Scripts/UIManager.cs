@@ -38,4 +38,8 @@ public class UIManager : MonoBehaviour
         optionPanel.SetActive(!optionPanel.activeSelf);
         TogglePausePanel();
     }
+
+    public bool isOptionsPanelOpen(){
+        return optionPanel.activeSelf;
+    }
 }

@@ -24,6 +24,7 @@ public class StateManager : MonoBehaviour
         if(name != null){
             // Debug.Log("transition to the scene \"" + name + "\"");
             SceneManager.LoadScene(name);
+            Time.timeScale = 1;
         }
     }
 

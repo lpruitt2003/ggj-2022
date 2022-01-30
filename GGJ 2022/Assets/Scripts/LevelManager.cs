@@ -50,9 +50,11 @@ public class LevelManager : MonoBehaviour
     public void PauseMenu(){
         UIManager _ui = GetComponent<UIManager>();
 
-        if(_ui != null){
+        if(_ui != null && !_ui.isOptionsPanelOpen()){
             _ui.TogglePausePanel();
             Time.timeScale = Time.timeScale == 0? 1: 0;
+        } else if (_ui.isOptionsPanelOpen()) {
+            _ui.ToggleOptionPanel();
         }
     }
 }
