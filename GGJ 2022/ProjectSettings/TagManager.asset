@@ -9,6 +9,9 @@ TagManager:
   - LightColor
   - DoNotTouch
   - AudioPlayer
+  - VictoryFlag
+  - Square
+  - Background
   layers:
   - Default
   - TransparentFX
@@ -16,7 +19,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - GameElements
   - 
   - 
   - 
@@ -45,4 +48,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Foreground Element
+    uniqueID: 280356489
+    locked: 0
+  - name: UI
+    uniqueID: 2581598783
     locked: 0

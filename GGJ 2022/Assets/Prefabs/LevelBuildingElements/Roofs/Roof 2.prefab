@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1621068724908650891}
   m_Layer: 0
   m_Name: Roof 2
-  m_TagString: Untagged
+  m_TagString: DarkColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

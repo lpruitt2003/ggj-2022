@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7879628002578979800}
   m_Layer: 0
   m_Name: Spikes_Dark
-  m_TagString: Untagged
+  m_TagString: MediumColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 6723963429988506304, guid: a02e0a31dd782064eb2a4b8fac845a66, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

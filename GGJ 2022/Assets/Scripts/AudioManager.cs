@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using FMODUnity;
 
 /**=====================================
@@ -15,6 +16,7 @@ Selin Kaya
 ======================================*/
 public class AudioManager : MonoBehaviour
 {
+    public float Progress;
     public StudioEventEmitter music;
     public GameObject sound;
 
@@ -37,7 +39,14 @@ public class AudioManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (SceneManager.GetActiveScene().name == "1st Level")
+        {
+            music.SetParameter("Progress", 1f);
+        }
+        else
+        {
+            music.SetParameter("Progress", 0f);
+        }
     }
 
     public void muteMusic()
