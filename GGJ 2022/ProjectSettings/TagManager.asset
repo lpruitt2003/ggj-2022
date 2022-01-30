@@ -10,6 +10,8 @@ TagManager:
   - DoNotTouch
   - AudioPlayer
   - VictoryFlag
+  - Square
+  - Background
   layers:
   - Default
   - TransparentFX
