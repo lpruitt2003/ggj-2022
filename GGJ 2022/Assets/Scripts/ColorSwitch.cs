@@ -20,8 +20,6 @@ public class ColorSwitch : MonoBehaviour
 {
     // Colors
     Color32 darkBlue = new Color32(36, 52, 58, 255);
-    Color32 mediumBlue = new Color32(62, 153, 184, 255);
-    Color32 lightBlue = new Color32(149, 194, 209, 255);
 
     // Bool that will check the state of the environment
     public bool isEnvironmentColored;
@@ -29,10 +27,16 @@ public class ColorSwitch : MonoBehaviour
     //Sound effects
     public StudioEventEmitter colorswap;
 
+    // Background sprites
+    public Sprite coloredBackground;
+    public Sprite bwBackground;
+
     // For holding the colored objects inside the level
     private GameObject[] darkColoredObjects;
     private GameObject[] mediumColoredObjects;
     private GameObject[] lightColoredObjects;
+    private GameObject[] squareObjects;
+    private GameObject[] backgrounds;
 
     // START
     // - Will fetch the colored objects according to their tags
@@ -43,6 +47,8 @@ public class ColorSwitch : MonoBehaviour
         darkColoredObjects = GameObject.FindGameObjectsWithTag("DarkColor");
         mediumColoredObjects = GameObject.FindGameObjectsWithTag("MediumColor");
         lightColoredObjects = GameObject.FindGameObjectsWithTag("LightColor");
+        squareObjects = GameObject.FindGameObjectsWithTag("Square");
+        backgrounds = GameObject.FindGameObjectsWithTag("Background");
     }
 
     // UPDATE
@@ -82,7 +88,16 @@ public class ColorSwitch : MonoBehaviour
         foreach (GameObject lightObject in lightColoredObjects)
         {
             lightObject.SetActive(false);
+        }
 
+        foreach (GameObject square in squareObjects)
+        {
+            square.GetComponent<SpriteRenderer>().color = Color.black;
+        }
+
+        foreach (GameObject background in backgrounds)
+        {
+            background.GetComponent<SpriteRenderer>().sprite = bwBackground;
         }
     }
 
@@ -91,17 +106,27 @@ public class ColorSwitch : MonoBehaviour
         // Change back the color of the objects
         foreach (GameObject darkObject in darkColoredObjects)
         {
-            darkObject.GetComponent<SpriteRenderer>().color= darkBlue;
+            darkObject.GetComponent<SpriteRenderer>().color= Color.white;
         }
 
         foreach (GameObject mediumObject in mediumColoredObjects)
         {
-            mediumObject.GetComponent<SpriteRenderer>().color = mediumBlue;
+            mediumObject.GetComponent<SpriteRenderer>().color = Color.white;
         }
 
         foreach (GameObject lightObject in lightColoredObjects)
         {
             lightObject.SetActive(true);
+        }
+
+        foreach (GameObject square in squareObjects)
+        {
+            square.GetComponent<SpriteRenderer>().color = darkBlue;
+        }
+
+        foreach (GameObject background in backgrounds)
+        {
+            background.GetComponent<SpriteRenderer>().sprite = coloredBackground;
         }
     }
 }
