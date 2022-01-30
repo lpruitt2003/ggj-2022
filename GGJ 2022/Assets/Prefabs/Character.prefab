@@ -189,6 +189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEnvironmentColored: 0
+  soundObject: {fileID: 7737995469645697122, guid: d73df07ad2c728243b486b050d9e1e9c, type: 3}
   colorswap: {fileID: 7746302571359791991, guid: d73df07ad2c728243b486b050d9e1e9c, type: 3}
   coloredBackground: {fileID: 21300000, guid: ead999399e1958940881485026248b22, type: 3}
   bwBackground: {fileID: 21300000, guid: 9ccada19efbaa0342b6a68c0a3905848, type: 3}

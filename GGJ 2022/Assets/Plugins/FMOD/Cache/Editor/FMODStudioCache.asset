@@ -69,7 +69,7 @@ MonoBehaviour:
   Path: ../FMOD Files/GGJ2022/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637791443868727089
+  lastModified: 637791458451949063
   FileSizes:
   - Name: Desktop
     Value: 936
@@ -123,7 +123,7 @@ MonoBehaviour:
   - {fileID: 1399634210064887570}
   StringsBanks:
   - {fileID: -6012859951188336380}
-  cacheTime: 637791462746389395
+  cacheTime: 637791484214994058
   cacheVersion: 10
 --- !u!114 &1399634210064887570
 MonoBehaviour:
@@ -140,7 +140,7 @@ MonoBehaviour:
   Path: ../FMOD Files/GGJ2022/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637791462746389395
+  lastModified: 637791484214994058
   FileSizes:
   - Name: Desktop
     Value: 1220864
