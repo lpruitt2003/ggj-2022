@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building Block (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7358575000922520315, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
 --- !u!4 &3266681 stripped
@@ -240,6 +244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roof 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2154982529569112359, guid: c7ced8988a5fac846b3753c1f011424c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7ced8988a5fac846b3753c1f011424c, type: 3}
 --- !u!4 &59262492 stripped
@@ -257,6 +265,10 @@ PrefabInstance:
     - target: {fileID: 4672683161901652260, guid: 7ad46b70b8cf65445852d7a34f019b9b, type: 3}
       propertyPath: m_Name
       value: Window Style 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672683161901652260, guid: 7ad46b70b8cf65445852d7a34f019b9b, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4672683161901652282, guid: 7ad46b70b8cf65445852d7a34f019b9b, type: 3}
       propertyPath: m_RootOrder
@@ -341,7 +353,7 @@ RectTransform:
   m_Children:
   - {fileID: 1200068280}
   m_Father: {fileID: 1411262163}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -441,6 +453,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 174547857}
+  m_CullTransparentMesh: 1
+--- !u!1 &420383635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 420383636}
+  - component: {fileID: 420383638}
+  - component: {fileID: 420383637}
+  m_Layer: 5
+  m_Name: Background Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &420383636
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420383635}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1411262163}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &420383637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420383635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ead999399e1958940881485026248b22, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &420383638
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420383635}
   m_CullTransparentMesh: 1
 --- !u!1 &435292261
 GameObject:
@@ -571,6 +658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building Right Side (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5443090739708614223, guid: 49c76d2e35bfbbf4c800a8c26256a756, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49c76d2e35bfbbf4c800a8c26256a756, type: 3}
 --- !u!4 &550691453 stripped
@@ -633,6 +724,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building Block (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7358575000922520315, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
 --- !u!4 &551034158 stripped
@@ -670,7 +765,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1411262163}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -829,6 +924,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building Block (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7358575000922520315, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
 --- !u!4 &685565309 stripped
@@ -859,14 +958,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 687633431}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1779187706}
   - {fileID: 5060040858793810622}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &696238137
 PrefabInstance:
@@ -922,6 +1021,10 @@ PrefabInstance:
     - target: {fileID: 7358575000922520315, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
       propertyPath: m_Name
       value: Building Block (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7358575000922520315, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
@@ -985,6 +1088,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roof 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2154982529569112359, guid: c7ced8988a5fac846b3753c1f011424c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7ced8988a5fac846b3753c1f011424c, type: 3}
 --- !u!4 &715513878 stripped
@@ -1046,6 +1153,10 @@ PrefabInstance:
     - target: {fileID: 7358575000922520315, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
       propertyPath: m_Name
       value: Building Block (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7358575000922520315, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
@@ -1109,6 +1220,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building Block (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7358575000922520315, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
 --- !u!4 &805925837 stripped
@@ -1170,6 +1285,10 @@ PrefabInstance:
     - target: {fileID: 7358575000922520315, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
       propertyPath: m_Name
       value: Building Block (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7358575000922520315, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
@@ -1233,6 +1352,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window Style 3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6749008979404898254, guid: d420132fb14900646b18bf43b38a11fe, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d420132fb14900646b18bf43b38a11fe, type: 3}
 --- !u!4 &960854509 stripped
@@ -1294,6 +1417,10 @@ PrefabInstance:
     - target: {fileID: 9143476133333669621, guid: 1e748951dd64349408904fc9624001a1, type: 3}
       propertyPath: m_Name
       value: Roof 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143476133333669621, guid: 1e748951dd64349408904fc9624001a1, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e748951dd64349408904fc9624001a1, type: 3}
@@ -1357,6 +1484,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building Block (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7358575000922520315, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
 --- !u!4 &1103999157 stripped
@@ -1419,6 +1550,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building Block (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7358575000922520315, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
 --- !u!4 &1164530997 stripped
@@ -1460,7 +1595,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 3.1539}
+  m_AnchoredPosition: {x: 0, y: 3.1539001}
   m_SizeDelta: {x: 0, y: 6.3078}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1200068281
@@ -1624,7 +1759,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1278983109
 PrefabInstance:
@@ -1680,6 +1815,10 @@ PrefabInstance:
     - target: {fileID: 5443090739708614223, guid: 49c76d2e35bfbbf4c800a8c26256a756, type: 3}
       propertyPath: m_Name
       value: Building Right Side (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443090739708614223, guid: 49c76d2e35bfbbf4c800a8c26256a756, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49c76d2e35bfbbf4c800a8c26256a756, type: 3}
@@ -1743,6 +1882,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building Block (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7358575000922520315, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
 --- !u!4 &1300010674 stripped
@@ -1784,7 +1927,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 3.1539}
+  m_AnchoredPosition: {x: 0, y: 3.1539001}
   m_SizeDelta: {x: 0, y: 6.3078}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1310866643
@@ -1939,6 +2082,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building Block (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7358575000922520315, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
 --- !u!4 &1374331424 stripped
@@ -2014,7 +2161,7 @@ Canvas:
   m_GameObject: {fileID: 1411262159}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -2024,7 +2171,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &1411262163
 RectTransform:
@@ -2037,12 +2184,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 420383636}
   - {fileID: 560309515}
   - {fileID: 2006445011}
   - {fileID: 174547858}
   - {fileID: 2051057739}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2083,7 +2231,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 3.1539}
+  m_AnchoredPosition: {x: 0, y: 3.1539001}
   m_SizeDelta: {x: 0, y: 6.3078}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1430711158
@@ -2238,6 +2386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window Style 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6749008979404898254, guid: d420132fb14900646b18bf43b38a11fe, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d420132fb14900646b18bf43b38a11fe, type: 3}
 --- !u!4 &1465047350 stripped
@@ -2299,6 +2451,10 @@ PrefabInstance:
     - target: {fileID: 7358575000922520315, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
       propertyPath: m_Name
       value: Building Block (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7358575000922520315, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
@@ -2362,6 +2518,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roof 2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 9143476133333669621, guid: 1e748951dd64349408904fc9624001a1, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e748951dd64349408904fc9624001a1, type: 3}
 --- !u!4 &1509432321 stripped
@@ -2423,6 +2583,10 @@ PrefabInstance:
     - target: {fileID: 7358575000922520315, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
       propertyPath: m_Name
       value: Building Block
+      objectReference: {fileID: 0}
+    - target: {fileID: 7358575000922520315, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
@@ -2486,6 +2650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building Right Side (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5443090739708614223, guid: 49c76d2e35bfbbf4c800a8c26256a756, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49c76d2e35bfbbf4c800a8c26256a756, type: 3}
 --- !u!4 &1714403178 stripped
@@ -2503,6 +2671,10 @@ PrefabInstance:
     - target: {fileID: 4672683161901652260, guid: 7ad46b70b8cf65445852d7a34f019b9b, type: 3}
       propertyPath: m_Name
       value: Window Style 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672683161901652260, guid: 7ad46b70b8cf65445852d7a34f019b9b, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4672683161901652282, guid: 7ad46b70b8cf65445852d7a34f019b9b, type: 3}
       propertyPath: m_RootOrder
@@ -2609,6 +2781,10 @@ PrefabInstance:
     - target: {fileID: 5443090739708614223, guid: 49c76d2e35bfbbf4c800a8c26256a756, type: 3}
       propertyPath: m_Name
       value: Building Right Side
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443090739708614223, guid: 49c76d2e35bfbbf4c800a8c26256a756, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49c76d2e35bfbbf4c800a8c26256a756, type: 3}
@@ -2732,6 +2908,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roof 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9143476133333669621, guid: 1e748951dd64349408904fc9624001a1, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e748951dd64349408904fc9624001a1, type: 3}
 --- !u!4 &1792298990 stripped
@@ -2793,6 +2973,10 @@ PrefabInstance:
     - target: {fileID: 4092152930290986326, guid: f57c5f0f339e9e84c9bcd01c8afcdb49, type: 3}
       propertyPath: m_Name
       value: Building Right Corner
+      objectReference: {fileID: 0}
+    - target: {fileID: 4092152930290986326, guid: f57c5f0f339e9e84c9bcd01c8afcdb49, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f57c5f0f339e9e84c9bcd01c8afcdb49, type: 3}
@@ -2856,6 +3040,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building Block (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7358575000922520315, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
 --- !u!4 &1960872669 stripped
@@ -2917,6 +3105,10 @@ PrefabInstance:
     - target: {fileID: 7358575000922520315, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
       propertyPath: m_Name
       value: Building Block (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7358575000922520315, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
@@ -2980,6 +3172,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building Block (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7358575000922520315, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b67a971bd2c2e84c9b3dca55b2c859c, type: 3}
 --- !u!4 &1990918679 stripped
@@ -3019,7 +3215,7 @@ RectTransform:
   m_Children:
   - {fileID: 1430711157}
   m_Father: {fileID: 1411262163}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3152,7 +3348,7 @@ RectTransform:
   m_Children:
   - {fileID: 1310866642}
   m_Father: {fileID: 1411262163}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
