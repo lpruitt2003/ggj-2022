@@ -55,7 +55,7 @@ public class ColorSwitch : MonoBehaviour
     // UPDATE
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) && PlayerControls.isAlive)
         {
             if (soundObject.active)
             {
