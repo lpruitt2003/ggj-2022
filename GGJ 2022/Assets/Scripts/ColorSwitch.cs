@@ -25,6 +25,7 @@ public class ColorSwitch : MonoBehaviour
     public bool isEnvironmentColored;
 
     //Sound effects
+    public GameObject soundObject;
     public StudioEventEmitter colorswap;
 
     // Background sprites
@@ -56,8 +57,11 @@ public class ColorSwitch : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            colorswap.Play();
-
+            if (soundObject.active)
+            {
+                colorswap.Play();
+            }
+            
             if (isEnvironmentColored)
             {
                 paintBW();
