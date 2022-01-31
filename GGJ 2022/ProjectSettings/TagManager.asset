@@ -12,6 +12,7 @@ TagManager:
   - VictoryFlag
   - Square
   - Background
+  - VictoryFlagLast
   layers:
   - Default
   - TransparentFX

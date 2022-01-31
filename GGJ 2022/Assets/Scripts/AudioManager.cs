@@ -18,6 +18,7 @@ public class AudioManager : MonoBehaviour
 {
     public float Progress;
     public StudioEventEmitter music;
+    public StudioEventEmitter victoryMusic;
     public GameObject sound;
 
     // Have only one AudioPlayer at each scene, destroy object if it is more than one
@@ -33,6 +34,7 @@ public class AudioManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        victoryMusic.Stop();
         music.Play();
     }
 

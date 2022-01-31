@@ -19,6 +19,7 @@ public class VictoryLogic : MonoBehaviour
     private Rigidbody2D rb;
 
     public StudioEventEmitter victoryMusic;
+    public StudioEventEmitter music;
     // Start is called before the first frame update
     private void Start()
     {
@@ -28,9 +29,15 @@ public class VictoryLogic : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision){
         if(collision.gameObject.CompareTag("VictoryFlag")){
-                Win();
+            Win();
         }
-        victoryMusic.Play();
+
+        if (collision.gameObject.CompareTag("VictoryFlagLast"))
+        {
+            music.Stop();
+            victoryMusic.Play();
+            Win();
+        }
     }
 
     private void Win(){

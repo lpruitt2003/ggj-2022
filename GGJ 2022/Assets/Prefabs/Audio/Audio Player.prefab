@@ -43,5 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c6a3b67f4e210740aa659501c0ab626, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Progress: 0
   music: {fileID: 8000101136119224705, guid: 7b09b77a9f52c274fa4c0624fdb13e7e, type: 3}
+  victoryMusic: {fileID: 7649586719267300282, guid: db78dc1cc96ee8345ae735be4eb244da, type: 3}
   sound: {fileID: 7737995469645697122, guid: d73df07ad2c728243b486b050d9e1e9c, type: 3}

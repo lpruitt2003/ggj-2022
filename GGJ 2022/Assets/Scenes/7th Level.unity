@@ -13944,11 +13944,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7905893627418358164, guid: e8180a78a11354b42a3ce4fe0971b435, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1
+      value: -1.94
       objectReference: {fileID: 0}
     - target: {fileID: 7905893627418358164, guid: e8180a78a11354b42a3ce4fe0971b435, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 7905893627418358164, guid: e8180a78a11354b42a3ce4fe0971b435, type: 3}
       propertyPath: m_LocalPosition.z
@@ -66069,7 +66069,7 @@ GameObject:
   - component: {fileID: 1940562723}
   m_Layer: 0
   m_Name: goal
-  m_TagString: VictoryFlag
+  m_TagString: VictoryFlagLast
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -28,9 +28,9 @@ public class DeathLogic : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision){
         if(collision.gameObject.CompareTag("DoNotTouch")){
-                Die();
+            deathSound.Play();
+            Die();
         }
-        deathSound.Play();
     }
 
     private void Die(){

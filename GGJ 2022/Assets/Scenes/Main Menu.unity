@@ -1452,5 +1452,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Audio Player
       objectReference: {fileID: 0}
+    - target: {fileID: 55187111555686299, guid: 88c27e4bed0de8e48b83036b35ab9668, type: 3}
+      propertyPath: victoryMusic
+      value: 
+      objectReference: {fileID: 7649586719267300282, guid: db78dc1cc96ee8345ae735be4eb244da, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88c27e4bed0de8e48b83036b35ab9668, type: 3}
