@@ -37,6 +37,11 @@ public class MenuUIManager : MonoBehaviour
         SceneManager.LoadScene("1st Level");
     }
 
+    public void LoadTutorial()
+    {
+        SceneManager.LoadScene("TutorialScene");
+    }
+
     // Load the options menu scene
     public void LoadOptionsMenu()
     {
