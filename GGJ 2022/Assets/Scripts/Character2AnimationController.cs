@@ -12,7 +12,7 @@ Handle the animation of the player's character
 Author(s):
 Selin Kaya
 =====================================*/
-public class CharacterAnimationController : MonoBehaviour
+public class Character2AnimationController : MonoBehaviour
 {
     private Animator characterAnimator;
 
@@ -26,10 +26,10 @@ public class CharacterAnimationController : MonoBehaviour
         // If character is running, do the sprint animation
         // If character is jumping do the jump animation
         // Otherwise, do idle
-        if ((GetComponent<PlayerControls>().moveDirection) != 0 && GetComponent<PlayerControls>().isGrounded)
+        if ((GetComponent<Player2Controls>().moveDirection) != 0 && GetComponent<Player2Controls>().isGrounded)
         {
             characterAnimator.Play("Sprint Animation");
-        } else if (!GetComponent<PlayerControls>().isGrounded)
+        } else if (!GetComponent<Player2Controls>().isGrounded)
         {
             characterAnimator.Play("Jump Animation");
         } else

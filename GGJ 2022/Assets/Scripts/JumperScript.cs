@@ -24,7 +24,7 @@ public class JumperScript : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player1" || collision.gameObject.tag == "Player2")
         {
             anim.Play("Boing");
             Rigidbody2D rb = collision.gameObject.GetComponent<Rigidbody2D>();

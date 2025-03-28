@@ -57,14 +57,20 @@ public class ColorSwitch : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && PlayerControls.isAlive)
         {
             colorswap.Play();
+            // player 1 swaps the color to BW and player 2 swaps it back to color
+            // checks what the tag of the component is
             
             if (isEnvironmentColored)
             {
                 paintBW();
-                // Set the environment color to b&w
                 isEnvironmentColored = false;
             }
-            else
+        }
+
+        if (Input.GetKeyDown(KeyCode.O) && Player2Controls.isAlive)
+        {
+            colorswap.Play();
+            if (!isEnvironmentColored)
             {
                 paintColor();
                 isEnvironmentColored = true;

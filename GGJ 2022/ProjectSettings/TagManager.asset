@@ -13,6 +13,9 @@ TagManager:
   - Square
   - Background
   - VictoryFlagLast
+  - Player1
+  - Player2
+  - Camera
   layers:
   - Default
   - TransparentFX

@@ -29,11 +29,15 @@ public class VictoryLogic : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision){
         if(collision.gameObject.CompareTag("VictoryFlag")){
+            PlayerControls.isAlive = false;
+            Player2Controls.isAlive = false;
             Win();
         }
 
         if (collision.gameObject.CompareTag("VictoryFlagLast"))
         {
+            PlayerControls.isAlive = false;
+            Player2Controls.isAlive = false;
             music.Stop();
             victoryMusic.Play();
             Win();
