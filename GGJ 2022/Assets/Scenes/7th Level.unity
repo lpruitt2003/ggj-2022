@@ -27084,7 +27084,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 835217519}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.7, y: 6.18, z: 0}
+  m_LocalPosition: {x: 8.484, y: 6.042, z: 0}
   m_LocalScale: {x: 3.0031142, y: 3.0031142, z: 3.0031142}
   m_Children: []
   m_Father: {fileID: 0}
@@ -68047,6 +68047,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8739787300134649345, guid: 6afaa95234b39624ebda311a2b4454a7, type: 3}
   m_PrefabInstance: {fileID: 2051568282}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1985988496 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7905893627418358172, guid: e8180a78a11354b42a3ce4fe0971b435, type: 3}
+  m_PrefabInstance: {fileID: 466375730}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1986673735 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4672683161901652282, guid: 7ad46b70b8cf65445852d7a34f019b9b, type: 3}
@@ -68739,6 +68744,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2007651324}
   - component: {fileID: 2007651323}
+  - component: {fileID: 2007651326}
+  - component: {fileID: 2007651325}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -68786,8 +68793,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 02800fb9cff14da47a04572790384d8b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -68805,12 +68812,43 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2007651322}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.26, y: -7.34, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 8.307, y: -3.697, z: 0}
+  m_LocalScale: {x: 2.5479, y: 2.5479, z: 2.5479}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2007651325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007651322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acf1a6d6e744f4ef1823321fa1b48386, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  immunityTime: 5
+  player1: {fileID: 1985988496}
+  player2: {fileID: 1336530682}
+--- !u!58 &2007651326
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007651322}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &2010588884
 PrefabInstance:
   m_ObjectHideFlags: 0
